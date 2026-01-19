@@ -295,6 +295,269 @@ body {
 
   
 
+/* Why Choose Section */
+.why-choose {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.why-choose h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+} 
+
+.features {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature-card {
+    background-color: #1A0B2E;
+    padding: 24px;
+    border-radius: 16px;
+    width: 220px;
+    text-align: center;
+      
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.5);
+}
+
+.feature-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 16px;
+}
+
+.feature-card h3 {
+    margin: 0 0 8px 0;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.feature-card p {
+    font-size: 14px
+}
+
+/* Responsive */
+@media screen and (max-width: 992px) {
+    .features {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .features {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+}
+
+/* Responsive */
+@media screen and (max-width: 992px) {
+    .episodes {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .episodes {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+}
+/* Featured Episodes Section */
+.featured-episodes {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.featured-episodes h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+}
+
+.episodes {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.episode-card {
+    background-color: #250D44;
+    padding: 20px;
+    border-radius: 16px;
+    width: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column; 
+}
+
+.episode-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.5);
+}
+
+.youtube-video {
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 16px; 
+}
+
+.episode-card iframe {
+    width: 100%;
+    height: 180px;
+    border: none;
+    border-radius: 12px;
+}
+
+.episode-card h3 {
+    margin: 0 0 8px 0;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.episode-card p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 8px;
+}
+
+.episode-card span {
+    font-size: 12px;
+    color: #00FF88;
+}
+
+/* Responsive */
+@media screen and (max-width: 992px) {
+    .episodes {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .episodes {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+
+/* Host Section */
+.h1 {
+  margin-left: 600px;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+.hosts {
+    padding: 100px 20px; display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.host-card {
+    display: flex;
+    gap: 24px;
+    max-width: 800px;
+    display: flex;  
+    justify-content: center;
+
+    
+    
+    align-items: center;
+    background-color:#250D44;
+    padding: 24px;
+    border-radius: 16px;
+}
+
+
+.host-card img {
+    width: 200px;
+    border-radius: 16px; 
+    
+} 
+.social-icons img {
+   width: 200px;
+    border-radius: 16px; 
+    border: 1px solid white;
+    padding: 5px;
+
+}
+
+.host-info h3 {
+    margin: 0 0 8px 0;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.host-info p {
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive */
+@media screen and (max-width: 992px) {
+    .features, .episodes {
+        gap: 20px;
+    }
+
+    .host-card {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .features {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .episodes {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .host-card {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 
 
 
