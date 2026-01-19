@@ -106,8 +106,9 @@ body {
   position: absolute;
   top: 101px;
   left: 50%;
-  
-  width: 550px;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 550px;
   height: 558px;
   display: flex;
   flex-direction: column;
@@ -171,7 +172,7 @@ body {
 }
  
 
-/* Button*/
+/* Buttons */
 .btn-2 {
   padding: 12px 20px;
   background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
