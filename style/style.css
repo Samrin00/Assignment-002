@@ -1,0 +1,81 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background: #1A0B2E;
+  color: white;
+  position: relative;
+}
+
+/* Logo */
+.logo {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  color: white;
+}
+.logo .span {
+  background: linear-gradient(yellow, deeppink, purple);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+/* Nav Menu */
+.nav-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Buttons */
+.btn-1 
+{
+  padding: 12px 20px; 
+  background: linear-gradient( 45deg, yellow, deeppink, purple); 
+  border-radius: 50px;
+   border: none; font-weight: 600;
+   color: white;
+}
+ 
+
+
+.btn-1:hover {
+  background: lightcoral;
+}
+
+/* Hamburger*/
+.hamburger {
+  display: none;
+}
+
+.hamburger img {
+  width: 28px;
+  height: 28px;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 576px) {
+  .nav-menu {
+    display: none;
+  }
+.btn-1 { 
+  display: none;
+}
+  .hamburger {
+    display: block;
+  }
+
+  .navbar {
+    padding: 10px 20px;
+  }
+}
